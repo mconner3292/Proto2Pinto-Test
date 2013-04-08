@@ -1,0 +1,21 @@
+package Proto2Pinto.Test.Common;
+
+message Cookie {
+    optional string name = 1;       // name of cookie
+    optional string value = 2;      // value of cookie
+    optional string expires = 3;    
+    optional string path = 4;       
+    optional string domain = 5;    
+    optional bool secure = 6;
+    optional string version = 7;    // for compliance with RFC 2965
+}
+
+enum Status {
+    OK = 0;
+    FAILED = 99999;
+}
+
+message NameValue {
+    optional string name = 1;
+    optional string value = 2;
+}

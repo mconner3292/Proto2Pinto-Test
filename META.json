@@ -1,0 +1,48 @@
+{
+   "abstract" : "A test distro to add Protocol Buffers dists to Pinto",
+   "author" : [
+      "Montgomery Conner <montgomery.conner@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Proto2Pinto-Test",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::CBuilder" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.4"
+         }
+      }
+   },
+   "provides" : {
+      "Proto2Pinto::Test" : {
+         "file" : "lib/Proto2Pinto/Test.pm",
+         "version" : "0.001"
+      },
+      "Proto2Pinto::Test::Common::Cookie" : {
+         "file" : "lib/Proto2Pinto/Common/Cookie.pm",
+         "version" : "1.0"
+      },
+      "Proto2Pinto::Test::Common::NameValue" : {
+         "file" : "lib/Proto2Pinto/Common/NameValue.pm",
+         "version" : "1.0"
+      },
+      "Proto2Pinto::Test::Common::Status" : {
+         "file" : "lib/Proto2Pinto/Common/Status.pm",
+         "version" : "1.0"
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.001"
+}

@@ -1,0 +1,6 @@
+Build.PL
+lib/Proto2Pinto/Test.pm
+MANIFEST			This list of files
+proto/common.proto
+META.yml
+META.json
