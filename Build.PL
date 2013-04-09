@@ -14,15 +14,15 @@ Module::Build->new(
   meta_merge         => {
     provides                => {
       'Proto2Pinto::Test::Common::Cookie' => {
-        file    => 'lib/Proto2Pinto/Common/Cookie.pm',
+        file    => 'lib/Proto2Pinto/Test/Common/Cookie.pm',
         version => '1.0',
       },
       'Proto2Pinto::Test::Common::Status' => {
-        file    => 'lib/Proto2Pinto/Common/Status.pm',
+        file    => 'lib/Proto2Pinto/Test/Common/Status.pm',
         version => '1.0',
       },
       'Proto2Pinto::Test::Common::NameValue' => {
-        file    => 'lib/Proto2Pinto/Common/NameValue.pm',
+        file    => 'lib/Proto2Pinto/Test/Common/NameValue.pm',
         version => '1.0',
       },
     },
